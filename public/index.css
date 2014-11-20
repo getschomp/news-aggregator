@@ -1,0 +1,48 @@
+body {
+  font: 75% georgia, sans-serif;
+  margin: 0;
+  padding: 0;
+  }
+
+h1{
+  font-size:80px;
+  color: #555753;
+  }
+
+h2{
+  font-size:40px;
+  color: #555753;
+}
+
+h4{
+  font-size:22px;
+  color: #555753;
+}
+
+
+.container {
+  margin: 0 auto;
+  width: 650px;
+  background: #fff
+}
+
+.thenews{
+  padding: 0px 70px;
+}
+
+
+.title{
+  background:#cedfea
+  width: 600px;
+  padding: 30px ;
+}
+
+.story{
+  color:#959c9f
+  padding: 20px;
+  border: 2px
+}
+
+#error{
+  color:#ff0000;
+}

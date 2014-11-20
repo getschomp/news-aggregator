@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="utf-8">
+  <title>Slacker News</title>
+  <link rel="stylesheet" href="../index.css">
+</head>
+<div class="container">
+  <body>
+    <div class=title>
+      <h1>Slacker News</h1>
+    </div>
+
+<div class=thenews>
+
+    <h2>The News</h2>
+
+    <% @story.each do |story| %>
+    <div class=story>
+      <h4><%= story[0] %></h4>
+      <a href=<%= @story[1] %>><%= story[1] %> </a>
+      <p><%= story[2] %></p>
+    </div>
+    <% end %>
+
+  </body>
+</div>
+</html>
